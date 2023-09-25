@@ -1,10 +1,10 @@
-name: 🏡 Invite to Organisation 
+name: "🏡 Invite to Organisation"
   
- on: 
+on: 
    issues: 
      types: [labeled] 
   
- jobs: 
+jobs: 
    automate_invite: 
      runs-on: ubuntu-latest 
      steps: 
