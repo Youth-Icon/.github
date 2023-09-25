@@ -1,10 +1,10 @@
-name: 🏡 Invite to Organisation 
+name: "🏡 Invite to Organisation"
   
- on: 
+on: 
    issues: 
      types: [labeled] 
   
- jobs: 
+jobs: 
    automate_invite: 
      runs-on: ubuntu-latest 
      steps: 
@@ -12,7 +12,7 @@ name: 🏡 Invite to Organisation
          uses: vj-abigo/invite-on-label@v1.4 
          with: 
            organization: Youth-Icon 
-           label: invite me to the organisation 
+           label: invite me to the organisation
            repo-token: ${{ secrets.GITHUB_TOKEN }} 
            comment: 
              "<b>Hi @${{ github.actor }}, We just sent you an invite to our Organization. Welcome to the community 
