@@ -2,4 +2,4 @@
 
 Ayo 👋 Welcome to the community
 
-Join Discord https://l.hellofaizan.me/discord
+Join Discord https://discord.gg/vUHMxPvege
